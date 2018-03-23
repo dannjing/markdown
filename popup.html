@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Danz Launcher</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        html,body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: .875em;
+            margin: 0;
+            min-height: 180px;
+            padding: 0;
+            width: 330px;
+            background-color: #eee;
+            border: 1px solid #000;
+        }
+        h1 {
+            font-family: 'Menlo', monospace;
+            font-size: 22px;
+            font-weight: 400;
+            margin: 0;
+            color: #336699;
+        }
+        a:link, a:visited {
+            color: #000;
+            outline: 0;
+            text-decoration: none;
+        }
+        img {
+            width: 30px;
+        }
+        .logo {
+            padding: 16px;
+            background-color: #fff;
+            width: 100%;
+        }
+        .logo-icon {
+            vertical-align: text-bottom;
+            margin-right: 12px;
+        }
+        .version {
+            color: #444;
+            font-size: 14px;
+        }
+        #content {
+            justify-content: space-between;
+            padding: 12px 22px;
+            width: 100%;
+        }
+        #item {
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width: 60px;
+        }
+        #item:hover {
+            opacity: 0.4;
+        }
+        .fa {
+            font-size: 40px;
+            color: #336699;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-md-center">
+            <h1 class="logo">
+                <img src="images/Danz_Logo.png" alt="Danz Logo" class="logo-icon"> Danz Launcher 
+                <span class="version">(1.0.0)</span>
+            </h1>
+        </div>
+        <div id="content" class="row justify-content-md-center">
+            <div class="col-md-auto">
+                <p>Easily access Danz favorites</p>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div id="item" class="col-md-auto">
+                <a href="https://www.youtube.com/dannjing" target="_blank">
+                    <i class="fa fa-youtube"></i>
+                </a>
+            </div>
+            <div id="item" class="col-md-auto">
+                <a href="https://www.twitter.com/dannjing" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </div>
+            <div id="item" class="col-md-auto">
+                <a href="https://www.facebook.com/dannjing" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </div>
+            <div id="item" class="col-md-auto">
+                <a href="https://www.github.com/dannjing" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
